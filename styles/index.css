@@ -359,6 +359,20 @@ th{
     background-color: #5c5555;
     cursor: pointer;
 }
+#checkout2{
+    margin-top: 30px;
+    width:300px;
+    height:60px;
+    color:white;
+    font-size:20px;
+    font-weight:bold ;
+    border:0px;
+    background-color: rgb(26, 25, 25); ;
+}
+#checkout2:hover{
+    background-color: #5c5555;
+    cursor: pointer;
+}
 #totalamount{
     display:flex;
     margin: auto;
@@ -417,4 +431,18 @@ th{
     flex:3;
     padding:50px;
     
+}
+#shoppingbtn{
+    margin-top: 20px;
+    width:20%;
+    height:60px;
+    color:white;
+    font-size:20px;
+    font-weight:bold ;
+    border:0px;
+    background-color: rgb(26, 25, 25); ;
+}
+#shoppingbtn:hover{
+    background-color: #5c5555;
+    cursor: pointer;
 }
