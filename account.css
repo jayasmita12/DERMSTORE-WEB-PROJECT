@@ -1,0 +1,216 @@
+#derm-icon{
+    width:100%;
+    height:110px;
+    background-color: #ffffff;
+}
+#icon{
+    width:300px;
+    padding: 20px 30px 
+    
+}
+body{
+    margin:0px;
+    padding: 0;
+}
+#navbar{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#login-maindiv{
+    background-color: #f2f2f2;
+    margin-top:0px;
+    height:100vh;
+    display:flex;
+    justify-content: space-evenly;
+}
+#register-div{
+    height:100vh;
+   
+}
+
+#register-form{
+    background-color: white;
+    margin:auto;
+    width:45%;
+    height:100%;
+    margin-top:50px
+}
+body{
+    background-color: #f2f2f2;
+}
+#login-div{
+    width:25%;
+    height:650px;
+    background-color: white;
+    margin-top:50px;
+    padding-left: 30px;
+    line-height: 2.5;
+}
+input{
+    width:90%;
+    height:50px;
+    border-radius: 8px;
+    
+}
+#login-div input{
+    font-size: 20px;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+#login-div p{
+    font-size: 18px;
+    font-weight: bold;
+}
+#btn1{
+    width:92%;
+    height:60px;
+    color:white;
+    font-size:20px;
+    font-weight:bold ;
+    border:0px;
+    background-color: rgb(26, 25, 25); ;
+}
+#btn1:hover{
+    background-color: #5c5555;
+    cursor: pointer;
+}
+#btnf,#btng{
+    width:45%;
+    height:55px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#btnf i{
+    color:blue;
+    font-size: 30px;
+}
+#btng i{
+    color:rgb(255, 90, 14);
+    font-size: 30px;
+}
+#register-div{
+    width:25%;
+    height:200px;
+    background-color: white;
+    margin-top:50px;
+    padding-left: 30px;
+}
+#register-div button{
+    width:92%;
+    height:60px;
+    color:white;
+    font-size:20px;
+    font-weight:bold ;
+    border:0px;
+    background-color: rgb(26, 25, 25); ;
+}
+#register-div button:hover{
+    background-color: #5c5555;
+    cursor: pointer;
+}
+#register-form{
+    padding-left:30px
+}
+#register-form input{
+    font-size: 20px;
+}
+#continue{
+    width:92%;
+    height:60px;
+    color:white;
+    font-size:20px;
+    font-weight:bold ;
+    border:0px;
+    background-color: rgb(26, 25, 25); ;
+}
+#continue:hover{
+    background-color: #5c5555;
+    cursor: pointer;
+}
+#register-form #check{
+   width:30px
+}
+#loginsignup{
+    display:flex;
+    width:50%;
+    background-color: white;
+    justify-content: space-around;
+    margin:auto;
+    margin-top:50px;
+}
+#loginsignup div button{
+    margin-top: 20px;
+    width:250px;
+    height:60px;
+    color:white;
+    font-size:20px;
+    font-weight:bold ;
+    border:0px;
+    background-color: rgb(26, 25, 25); ;
+}
+#loginsignup div button:hover{
+    background-color: #5c5555;
+    cursor: pointer;
+}
+#addressdiv{
+    width:47%;
+    line-height: 2.7;
+    background-color: #ffffff;
+    margin:auto;
+    padding:30px;
+    margin-top: 30px;
+}
+#cardimages img{
+    width:50px;
+
+}
+#paymentmethod{
+    width:47%;
+    background-color: #ffffff;
+    padding: 30px;
+    line-height: 2.7;
+    margin: auto;
+    margin-top: 30px;
+}
+#monthyear{
+    display:flex;
+    width:93%;
+    gap:20px
+}
+#p1,#p2{
+    width:20px;
+    height:20px; 
+}
+#chc1,#chc2{
+    display:flex;
+}
+#paymentsubmit{
+    width:47%;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+}
+#paymentsubmit button{
+    margin-top: 20px;
+    width:100%;
+    height:60px;
+    color:white;
+    font-size:20px;
+    font-weight:bold ;
+    border:0px;
+    background-color: rgb(26, 25, 25)
+}
+#paymentsubmit button:hover{
+    background-color: #5c5555;
+    cursor: pointer;
+}
+#paymentsubmit button i{
+    color:white;
+
+}
+input{
+    font-size: 20px;
+}

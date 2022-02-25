@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <script src="https://kit.fontawesome.com/f62b16b81d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="derm-icon">
+            <a href="index.html"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2pHARSsaViwMQ86kYBhX3KkurTwehaCPQtjfPOx1YDdtEP8zKb2N8eqH7gP-ySC_QXw&usqp=CAU"
+                    alt="icon" id="icon"></a>
+        </div>
+        </div>
+        <div id="register-maindiv">
+            <div id="register-form">
+                <form action="">
+                <p style="font-size:30px">About You</p>
+                <h1>Sign Up with</h1>
+                <a href="https://www.facebook.com"><button id="btnf"><i class="fa fa-facebook-square"></i> Facebook</button></a>
+                <a href="https://www.google.com"> <button id="btng"><i class="fa fa-google"></i> Google</button></a>
+                <hr>
+                <h1>or create an email account</h1>
+                <p>* Full Name</p>
+                <input type="text" id="name">
+                <p>* Email address</p>
+                <input type="text" id="email">
+                <p>* Confirm email address</p>
+                <input type="text" id="confirm-email">
+                <p>* password</p>
+                <input type="password" id="password">
+                <p>* confirm Password</p>
+                <input type="password" id="confirm-password">
+                <p>Cell Phone Number(Optional)</p>
+                <input type="number" id="phn-number">
+                <h3>Loyality Reward program</h3>
+                <input type="checkbox" id="check">
+                <label for="">include me in the Dermstorm Reward</label><br>
+                <button id="continue" onclick="getregisterdata(event)">CONTINUE</button>
+                <p>By proceeding, you are confirming that you agree to our <span><a href="#">Terms and Conditions</a> </span>
+                and<span><a href="#"> Privacy policy</a> </span></p>
+                </form>
+            </div>
+
+        </div>
+</body>
+</html>
+<script src="register.js"></script>

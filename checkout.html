@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="account.css">
+    <script src="https://kit.fontawesome.com/f62b16b81d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navbar">
+        <div id="derm-icon">
+            <a href="index.html"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2pHARSsaViwMQ86kYBhX3KkurTwehaCPQtjfPOx1YDdtEP8zKb2N8eqH7gP-ySC_QXw&usqp=CAU"
+                    alt="icon" id="icon"></a>
+        </div>
+    </div>
+
+    <!-- loginDiv/signupDiv -->
+    <div id="loginsignup">
+        <div>
+            <h3>Login or sign up for rewards</h3>
+            <p>Check out faster with saved details and earn reward points on every order.</p>
+        </div>
+        <div><button>LOGIN/SIGNUP</button></div>
+    </div>
+
+    <!-- address details  -->
+    <div id="addressdiv">
+        <form action="">
+            <div style="background-color:black"></div>
+            <h2>1.Checkout as aguest</h2>
+            <p>Complete Your order without signing up.or sign up after payment.</p>
+            <h3>I.Email and Delivery address</h3>
+            <label for="">* Email address</label>
+            <input type="text" id="email">
+            <label for="">Country/Region</label>
+            <input type="text" id="country">
+            <br>
+            <label for="">* Full Name</label>
+            <input type="text" id="name"><br>
+
+            <label for="">Address Search</label>
+            <br>
+            <textarea type="text" id="address"></textarea> <br>
+            <label for="">* Contact Number</label>
+            <input type="number" id="number">
+        </form>
+    </div>
+
+    <div id="paymentmethod">
+  
+            <h2>2.Select Payment Method</h2>
+            <h3>Credit/Debit Card</h3>
+            <div id="cardimages">
+        <img src="https://www.investopedia.com/thmb/1IVupa7WPkyjIVLKezgBowB52DM=/800x450/filters:fill(auto,1)/full-color-800x450-cee226a48bed4177b90351075b332227.jpg"
+            alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQokKHsJhfDDps4c0ZgyqVMZtd_gAfQ4p2ZeDatoBAQXdDBuiNmm3ZF1uku1EtShPomWg&usqp=CAU"
+            alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr1eadNGtl1ScX9qrqXKRiqXrgf7DtLmGyw3MQp45G5oECsCNJD9-RuYO_iMmRyAOHBaE&usqp=CAU"
+            alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZuO5luqh3u9hjkmQtOSIwUziBX9FcIO7GsA&usqp=CAU"
+            alt="">
+        <img src="https://logosvector.net/wp-content/uploads/2015/08/apple-pay-logo.png" alt="">
+        <img src="https://www.edigitalagency.com.au/wp-content/uploads/afterpay-logo-png-black-transparent.png"
+            alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnQkEqvC1ypxkpm20RidRdNdWyITAiGGvbFQt7Prl20nofrp6_foDSwEWFI9hx2ukuxbo&usqp=CAU"
+            alt="">
+            </div>
+            <form action="">
+            <label for="">* Card Number</label>
+            <input type="number" id="cardnumber"><br>
+            <label for="">* Name on card</label>
+            <input type="text" id="cardname"><br>
+            <label for="">* Expiry Date</label>
+            <div id="monthyear">
+            <input type="month" id="month"><input type="date" id="year"><br>
+        </div>
+            <label for="">* Security Code(CV2</label>
+            <input type="password" id="cvv"><br>
+            <label for="">* Enter OTP</label>
+            <input type="text"id="OTP" placeholder="4Rg6Tc" >
+            <div id="chc1">
+            <input type="checkbox"id="p1" value="checked"><p>Use my shipping address as my cardholder address</p>
+        </div>
+        <div id="chc2">
+            <input type="checkbox" id="p2" value="checked"><p>Use a different address</p>
+        </div>
+    </form>
+    </div>
+    <div id="paymentsubmit">
+        <button  onclick="getpaymentdata(event)"><i class="fa fa-lock"> SUBMIT MY ORDER</i></button>
+    </div>
+</body>
+</html>
+<script src="checkout.js"></script>

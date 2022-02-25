@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f62b16b81d.js" crossorigin="anonymous"></script>
+    <title>My Account</title>
+    <link rel="stylesheet" href="./styles/index.css" type="text/css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar">
+    </div>
+
+    <!-- offerbar -->
+    <div id="offers-mainbar">
+    </div>
+
+    <!-- shopbar -->
+    <div id="shopnow"><h3>Shop From Our top beauty brand and receive a gift with Your Purchase.SHOP NOW</h3></div>
+
+    <!-- USerDetails -->
+    <div id="userdetail">
+        <div>
+            <h1>My Account</h1>
+            <div id="username">
+                <h2>Welcome</h2>
+                <h2 id="name"></h2>
+            </div>
+        </div>
+        <div>
+            <a href="account.html"><button id="logout">LOG OUT</button></a>
+        </div>
+  
+    </div>
+    <hr>
+
+
+    
+  <!-- footerdiv -->
+  <div id="footerdiv">
+  
+</div>
+<hr>
+<!-- belowfooter -->
+<div id="belowfooter"></div>
+</body>
+</html>
+<script type="module" >
+import {navbar,offerdiv,footerpart,belowfoot} from "./components/navbar.js";
+
+let navbar1 = document.getElementById("navbar")
+navbar1.innerHTML=navbar(); 
+let offers_mainbar=document.getElementById("offers-mainbar")
+offers_mainbar.innerHTML=offerdiv() 
+
+let rgsterdetel = JSON.parse(localStorage.getItem("registerdetails"))
+
+appendname(rgsterdetel)
+
+
+function appendname(rgsterdetel){
+    let div = document.getElementById("username")
+    let p = document.getElementById("name")
+    p.innerHTML=null
+    // let maindiv=document.getElementById("userdetails")
+    p.append(rgsterdetel.name)
+    p.style="color:green;font-size:25px"
+    div.append(p)
+    
+
+}
+
+
+let footerdiv=document.getElementById("footerdiv")
+footerdiv.innerHTML=footerpart()
+let belowfooterdiv=document.getElementById("belowfooter")
+belowfooterdiv.innerHTML=belowfoot()
+</script>
